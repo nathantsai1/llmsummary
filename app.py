@@ -16,6 +16,14 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
+# check resume
+@app.route('/check', methods=['POST'])
+def check():
+    if request.method == "POST":
+        return "oops!ohnoohnoohnoohno"
+    else:
+        return render_template("check.html")
+
 # normal end settings
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,2 +1,26 @@
 <!-- gets homepage / WILL NOT USE BOOTSTRAP -->
  {% extends 'layout.html' %}
+
+ {% block title %}
+    home
+ {% endblock %}
+ {% block main %}
+ <div class="container1">
+    <!-- says hello -->
+     <div class="center">
+        <h1 style="color: #D16EC6">Welcome to Resumery</h1>
+        <hr style="opacity: 0">
+        <h3>Resumery is a tool designed to simplify resume and college essay checking, by looking for simple
+            errors, like those found in grammer, and more complicated ones, like looking for word tones. 
+            *Utilizing Google's Gemini AI tool, Resumery is able to check quickly.
+            <!-- ** not written by gemini -->
+        </h3>
+        <a class="btn" href="/check">Check now!</a>
+        <h6>*While Resumery can check your resume, it may not be accurate and might not catch all errors. Please
+            do not rely on this tool, but use it to further better your writing. This is not a substitute for 
+            real human beings.
+        </h6>
+
+     </div>
+ </div>
+ {% endblock %}

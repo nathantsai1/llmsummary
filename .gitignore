@@ -2,6 +2,7 @@ api.py
 
 venv/
 
+templates/template.html
 __pycache__/
 *.pyc
 *.pyo
