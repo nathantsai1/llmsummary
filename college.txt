@@ -1,0 +1,37 @@
+To pull text from a .txt file in Python, you can use the built-in open() function along with methods like read(), readline(), or readlines(). Here’s a simple example to get you started:
+
+Open the file: Use the open() function to open the file.
+Read the content: Use one of the reading methods.
+Close the file: Always close the file after you’re done.
+Here’s a basic example:
+
+Python
+
+# Open the file in read mode
+with open('example.txt', 'r') as file:
+    # Read the entire content of the file
+    content = file.read()
+
+# Print the content
+print(content)
+AI-generated code. Review and use carefully. More info on FAQ.
+Explanation:
+open('example.txt', 'r'): Opens the file in read mode.
+file.read(): Reads the entire content of the file.
+with statement: Ensures the file is properly closed after its suite finishes, even if an exception is raised.
+If you want to read the file line by line, you can use readlines():
+
+Python
+
+# Open the file in read mode
+with open('example.txt', 'r') as file:
+    # Read all lines into a list
+    lines = file.readlines()
+
+# Print each line
+for line in lines:
+    print(line.strip())  # strip() removes the newline character
+AI-generated code. Review and use carefully. More info on FAQ.
+This method is useful if you need to process each line individually.
+
+Would you like more details on any specific part of this process?

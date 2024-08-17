@@ -26,9 +26,17 @@ def home():
 @app.route('/check', methods=['POST', "GET"])
 def check():
     if request.method == "POST":
+        with open('college.txt', 'r') as file:
+            # Read the entire content of the file
+            content = file.read()
+        return content
+        # take api_key(hidden)
         api_key = api_keyed()
+        # give api_key to genai
         genai.configure(api_key=api_key)
+        # select model;
         model = genai.GenerativeModel('gemini-1.5-flash')
+        # take prompt
         response = model.generate_content("What is python?")
         return response.text
     else:
