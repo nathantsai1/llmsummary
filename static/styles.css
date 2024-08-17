@@ -49,6 +49,12 @@
     margin: 10px;
 }
 
+.down {
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
 .beigeone {
     justify-content: start;
     align-items: start;
@@ -73,11 +79,17 @@
 .btn {
     height: 30px;
     border-radius: 5px;
+    border-color: #198754;
     padding: 3px;
     margin: 3px;
     color: white;
     text-decoration: none;
     background-color: #198754;
+}
+
+.btn:hover {
+    background-color: #458018;
+    border-color: #458018;
 }
 /* decorations */
 .shouldhide {
@@ -111,9 +123,11 @@
   }
 
 .bigger {
-    width: 500px;
-    height: 1000px;
+    width: 1000px;
+    height: 100px;
 }
 .fromtop {
-    
+ align-items: start;
+ justify-content: start;
+ flex-direction: row;   
 }

@@ -1,0 +1,7 @@
+python3
+pip
+google-generativeai
+flask
+html5
+css3
+es2023

@@ -11,17 +11,21 @@
  {% endblock %}
 
  {% block main %}
-    <div class="beigeone container1 center cantsee">
+    <div class="beigeone container1 center cantsee ">
         <h1>Check here</h1>
         <!-- post form here -->
-         <form method="POST" href="/check">
-            <!-- name -->
-            <label for="fname">Essay name:</label>
-            <input type="text" id="fname" name="fname">
-            <!-- content -->
-             <br>
-            <label for="fname">Essay here:</label>
-            <input type="text"  id="fname" name="fname" class="bigger">
-         </form>
+         <div class="down">
+            <form method="POST" href="/check/me">
+               <!-- name -->
+               <label for="fname">Essay name:</label>
+               <input type="text" id="fname" name="fname">
+               <!-- content -->
+                <br>
+               <h4 for="fname">Essay here:</h4>
+               <textarea type="text"  id="fname" name="fname" class="bigger fromtop"></textarea>
+               <br>
+               <button class="btn">Submit here</button>
+            </form>
+         </div>
     </div>
  {% endblock %}
