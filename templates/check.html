@@ -2,7 +2,7 @@
 
 {% block title %}
    check
-{% endtitle %}
+{% endblock %}
 
 {% block style %}
  <style>
@@ -11,5 +11,17 @@
  {% endblock %}
 
  {% block main %}
- <!-- main block goes here -->
+    <div class="beigeone container1 center cantsee">
+        <h1>Check here</h1>
+        <!-- post form here -->
+         <form method="POST" href="/check">
+            <!-- name -->
+            <label for="fname">Essay name:</label>
+            <input type="text" id="fname" name="fname">
+            <!-- content -->
+             <br>
+            <label for="fname">Essay here:</label>
+            <input type="text"  id="fname" name="fname" class="bigger">
+         </form>
+    </div>
  {% endblock %}

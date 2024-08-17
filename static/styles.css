@@ -47,6 +47,9 @@
     width: 97%;
     padding: 10px;
     margin: 10px;
+}
+
+.beigeone {
     justify-content: start;
     align-items: start;
     /* border */
@@ -59,7 +62,7 @@
 /* items */
 .center {
     /* centralize objects */
-    width: 100%;
+    width: 97%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,6 +100,20 @@
     text-decoration: none;
     border-width: 0px;
   }
-.fading {
+.cantsee {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+    from{ opacity: 0; }
+    to { opacity: 1; }
+  }
+
+.bigger {
+    width: 500px;
+    height: 1000px;
+}
+.fromtop {
     
 }

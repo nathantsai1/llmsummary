@@ -17,7 +17,7 @@ def home():
     return render_template("home.html")
 
 # check resume
-@app.route('/check', methods=['POST'])
+@app.route('/check', methods=['POST', "GET"])
 def check():
     if request.method == "POST":
         return "oops!ohnoohnoohnoohno"
