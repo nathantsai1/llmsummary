@@ -1,0 +1,127 @@
+<!doctype html>
+<!-- same layout as previous project -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <!-- copied straight from bootstrap -->
+    {% block style %}{% endblock %}
+   </head>
+  <body>
+    <div id="homed">
+        <!-- logo -->
+         <div style="grid-column: 1"><a href="/"><img src="/static/logo.png" width="300px" alt="the good weather App"></a></div>
+        <!--search--> 
+        <div id='0' class="shouldhide" style="grid-column: 4">
+          <a class="none" style="color: #7400B8"><b>Hover for more options</b></a>
+        </div>
+        <div id='1' class="nill" style="grid-column: 4">
+          <a class="none" style="color: #EE4B2B" href="/"><b>Home</b></a>
+        </div>
+        <div id='2' class="nill" style="grid-column: 4">
+          <a class="none" style="color: #968E85" href="/weather"><b>Weather</b></a>
+        </div>
+        <div id='3' class="nill" style="grid-column: 4">
+          <a class="none" style="color: #000080" href="/about"><b>About us</b></a>
+        </div>
+        <div id='4' class="nill" style="grid-column: 4">
+          <a class="none" style="color: #CD5909" href="/learning"><b>What are these weather symbols?</b></a>
+        </div>
+        <div id='5' class="nill" style="grid-column: 4">
+          <a class="none" style="color: #FFF4E9; opacity: 0" href="/learning"><b>adfasdfadsf</b></a>
+        </div>
+    </div>
+    {% block main %}{% endblock%}
+    <script>
+      /* check for  screen width */
+      function myFunction() {
+        // main div
+        const element = document.getElementById("homed");
+        // window screen in px
+        var width = window.innerWidth;
+        // all elements of div
+        var unhide = document.getElementsByClassName("nill");
+        // just to check if style should be hidden or not
+        var yup = undefined;
+        if (width > 1000) {
+          // full screen
+          element.classList.add("navbar"); // Add newone class to DIV
+          for (var i = 0; i < unhide.length; i++) {
+            unhide[i].style.display = "block"; // for showing all div elements
+          }
+          // and hiding those that shouldd be there
+          document.getElementById("shouldhide").display = "none";
+        }
+        else {
+          // or not(full screen)
+          // make main div expanidng navbar
+          element.classList.add("nav_expand");
+          // hints in website
+          const new_element = document.getElementsByClassName("shouldhide"); 
+          // show hint
+          new_element[0].style.display = "block";
+
+          // render everything hidden
+          for (var i = 0; i < unhide.length; i++) {
+            unhide[i].style.display = "none"
+          }
+          // is user hovering
+          element.onmouseover = function() {
+            // unhide some elements
+            new_element[0].style.display = "none";
+            for (var i = 0; i < unhide.length; i++) {
+              unhide[i].style.display = "block";
+            }
+            element.style.height = "250px"
+          };
+
+          // is user on mobile?
+          element.addEventListener('click', function() {
+            // new_element[0].style.display = "none";
+            // main div
+            var displayValue = window.getComputedStyle(element).height;
+            if (displayValue[0] == 1 || displayValue[0] == 6 || (displayValue[0] == 2 && displayValue[1] != 5)) {
+              // if display is not fully expanded(100, 200, 60 px)
+              try {
+                // force this thing to expand
+                element.style.height = "250px"
+                for (var i = 0; i < unhide.length; i++) {
+                  unhide[i].style.display = "block";
+                }
+                yup = 'yes'
+              }
+              catch(err){
+                // uh oh :(
+                alert("it seems like we've ran into a problem. Please check back later for an update!")
+              }
+            }
+            // user is already expanded
+            else {
+              // so change it back onclick
+              element.style.height = "60px"
+              for (var i = 0; i < unhide.length; i++) {
+                  unhide[i].style.display = "none";
+              }
+              yup = undefined;
+            }
+          })
+          
+          // is not hovering over
+          element.onmouseout = function() {
+            if (yup == undefined){
+              for (var i = 0; i < unhide.length; i++) {
+                unhide[i].style.display = "none";
+              }
+              element.style.height = "60px"
+            }
+          };
+        }
+      }
+      // from bingchat
+
+      myFunction()
+    </script>
+  </body>
+</html>
