@@ -1,6 +1,4 @@
-Read the following essay. Then, check for the following elements.
-
-Can you create a detailed description about how well this essay is written. 
+Create a detailed description about how well this essay is written. 
 When reading this essay, keep in mind these key elements:
 1. Inasmuch as essays should have a creative build, they must have boundaries that mitigate harmful, biased and/or explicit language. 
 For this, check for these following wording:
@@ -19,17 +17,15 @@ Furthermore, look for good(and could-be-improved) writing, and rate each item(of
 1. The hook:
    * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
    * The opening should not include a description of what the essay is about.
-   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should follow one of four ways: a rhetorical question(a question to involve the readers/ put them in your shoes), a simile/metaphor(to help connect readers to the author's position), a scene(imagery that 'paints'/describes the author's life), or an anecdote(a personal story, which should differ from the main essay point or make the reader interested in that story)?
+   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should follow one of four ways: a rhetorical question(a question to involve the readers/ put them in your shoes), a simile/metaphor(to help connect readers to the author's position), a scene(imagery that 'paints'/describes the author's life), or an anecdote(a personal story, which should differ from the main essay point or make the reader interested in that story).
    * If the hook does not follow those four ways, that's ok! First, check for the overused hooks: quotes by famous people, generic statements about major sources(e.g. 'computers have existed for such a short time'), or talk of old memories.
    * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are(could they be shortened, with about the same amount of emotion?)], 
    * when grading the hook, grade based off of the [0 to 10]scales with descriptions:
       **zero: the following descriptions are able to express the hook -> completely full of offensive language, explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels
-      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing substance), describes a story(but does not tell them outright), and follows/creates the same tone(is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. 
+      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing substance) describes a story(but does not tell feelings outright), and follows/creates the same underlying tone(is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. 
 2. The description:
-   * After the hook comes the description - what did the hook mean? The essay should add one or two sentences to explain what the hook meant and/or answer the hook's question. 
-https://blog.collegevine.com/how-to-get-the-perfect-hook-for-your-college-essay/
-https://www.collegeessayguy.com/blog/college-essay-tips
-https://www.collegeessayguy.com/the-free-guide
-https://essayreply.com/how-to-write-an-essay/review-essay/
-https://www.collegevine.com/onboarding/wizard/schools
-https://aistudio.google.com/app/prompts/new_chat?_gl=1*vya6qz*_ga*MzI0ODU5NTQ2LjE3MjM5MjAzODY.*_ga_P1DBVKWT6V*MTcyMzkyMDM4NS4xLjEuMTcyMzkyMDUyOS41OS4wLjI0NjU5NzIxOA..
+   * After the hook comes the description - what did the hook mean? The essay should about one or two sentences to explain what the hook meant and/or answer the hook's question. It is acceptable for the description to be part of the hook
+   * grading this should be on the scale of zero to ten:
+      ** a 'zero' grade means: the author wrote a different topic than that originally suggested by the hook, added words that did not add any value(the description paraphrased[at least partly] the hook), and/or revealed the rest of the story(very blatantly)
+      ** a 'ten' grade means: going above and beyond the following requirements -> the author added to the hook(meaning, there was more information about the author's life than before or clears up/answers some questions the reader has), did not stray far from the hook's theme and experience, and talked more about their story than their hopes to join their college.
+return the JSON object, and a paragraph or two on how well the introduction was written
