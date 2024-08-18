@@ -15,10 +15,10 @@ For this, check for these following wording:
          1. 'sentence' key with value of the sentence with the offensive language
          2. 'phrase' key with value of the offensive phrase/wording
          3. 'reason' key with value of the reason for this phrase being flagged
-Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, adding(or making) a JSON object, with the key being a .  
+Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) followed by a '-', and the reason for the rating.  
 1. The hook:
-   
-   * Does this essay encompass a good opening? Was this ??
+   * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
+   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should follow one of four ways: a rhetorical question(a question to involve the readers/ put them in your shoes), a simile/metaphor(to help connect readers to the author's position), a scene(imagery that 'paints'/describes the author's life), or an anecdote(a personal story, which should differ from the main essay point or make the reader interested in that story)?
    * when grading the hook, grade using the scales with descriptions:
       **zero -(completely full of offensive language, explicit content, and/or has a flat tone, like having no emotions or descriptions to describe how the essay's author feels )
 2. While you 
