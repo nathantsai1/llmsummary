@@ -1,4 +1,4 @@
-Read the following essay. Then, check for the following elements
+Read the following essay. Then, check for the following elements.
 
 Can you create a detailed description about how well this essay is written. 
 When reading this essay, keep in mind these key elements:
@@ -6,14 +6,21 @@ When reading this essay, keep in mind these key elements:
 For this, check for these following wording:
    * Insensitive language: this includes any wording that insults others - whether it was intended or not. For example, some old-fashioned phrases like 'red indian' are considered offensive. Are any of these phrases showing a form of racism, ageism, ableism, or sexism? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:
       * 'insensitive language' containing a dictionary for each phrase, with three key/value pairs each - 
-         1. 'sentence' key with value of the sentence with teh offensive language
+         1. 'sentence' key with value of the sentence with the offensive language
          2. 'phrase' key with value of the offensive phrase/wording
          3. 'reason' key with value of the reason for this phrase being flagged
    In addition, check for Individuality
-   * This means checking for wording that reduces a large population group to their common traits
-   
+   * This means checking for wording that reduces a large population group to their common traits; Does it seem like any phrases make it seem like the essay points to any groups, and single them out without context? Does it draw from any stereotypes - e.g. All asians are nerds because they are Asian? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:
+      * 'Individuality and generalizing' containing a dictionary for each offending phrase, with three key/value pairs each - 
+         1. 'sentence' key with value of the sentence with the offensive language
+         2. 'phrase' key with value of the offensive phrase/wording
+         3. 'reason' key with value of the reason for this phrase being flagged
+Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, adding(or making) a JSON object, with the key being a .  
 1. The hook:
+   
    * Does this essay encompass a good opening? Was this ??
+   * when grading the hook, grade using the scales with descriptions:
+      **zero -(completely full of offensive language, explicit content, and/or has a flat tone, like having no emotions or descriptions to describe how the essay's author feels )
 2. While you 
 https://blog.collegevine.com/how-to-get-the-perfect-hook-for-your-college-essay/
 https://www.collegeessayguy.com/blog/college-essay-tips
