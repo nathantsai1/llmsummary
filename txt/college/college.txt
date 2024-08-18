@@ -1,31 +1,57 @@
-Create a detailed description about how well this essay is written. 
-When reading this essay, keep in mind these key elements:
-1. Inasmuch as essays should have a creative build, they must have boundaries that mitigate harmful, biased and/or explicit language. 
-For this, check for these following wording:
-   * Insensitive language: this includes any wording that insults others - whether it was intended or not. For example, some old-fashioned phrases like 'red indian' are considered offensive. Are any of these phrases showing a form of racism, ageism, ableism, or sexism? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:
-      * 'insensitive language' containing a dictionary for each phrase, with three key/value pairs each - 
-         1. 'sentence' key with value of the sentence with the offensive language
-         2. 'phrase' key with value of the offensive phrase/wording
-         3. 'reason' key with value of the reason for this phrase being flagged
-   In addition, check for Individuality
-   * This means checking for wording that reduces a large population group to their common traits; Does it seem like any phrases make it seem like the essay points to any groups, and single them out without context? Does it draw from any stereotypes - e.g. All asians are nerds because they are Asian? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:
-      * 'Individuality and generalizing' containing a dictionary for each offending phrase, with three key/value pairs each - 
-         1. 'sentence' key with value of the sentence with the offensive language
-         2. 'phrase' key with value of the offensive phrase/wording
-         3. 'reason' key with value of the reason for this phrase being flagged
-Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) followed by a '-', and the reason for the rating. Each bulleted item should affect the scale.
+Imagine that you are a college essay reviewer. Create a detailed description about how well this essay is written. \n
+When reading this essay, keep in mind these key elements:\n
+1. Inasmuch as essays should have a creative build, they must have boundaries that mitigate harmful, biased and/or explicit language. \n
+For this, check for these following wording:\n
+   * Insensitive language: this includes any wording that insults others - whether it was intended or not. For example,
+   some old-fashioned phrases like 'red indian' are considered offensive. Are any of these phrases showing a form of racism, 
+   ageism, ableism, or sexism? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) 
+   with a list:\n
+      * 'insensitive language' containing a dictionary for each phrase, with three key/value pairs each - \n
+         1. 'sentence' key with value of the sentence with the offensive language\n
+         2. 'phrase' key with value of the offensive phrase/wording\n
+         3. 'reason' key with value of the reason for this phrase being flagged\n
+   In addition, check for Individuality\n
+   * This means checking for wording that reduces a large population group to their common traits; 
+   Does it seem like any phrases make it seem like the essay points to any groups, and single them out without context? 
+   Does it draw from any stereotypes - e.g. All asians are nerds because they are Asian? 
+   If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:\n
+      * 'Individuality and generalizing' containing a dictionary for each offending phrase, with three key/value pairs each - \n
+         1. 'sentence' key with value of the sentence with the offensive language\n
+         2. 'phrase' key with value of the offensive phrase/wording\n
+         3. 'reason' key with value of the reason for this phrase being flagged\n
+Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, 
+adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) 
+followed by a '-', and the reason for the rating. Each question item should affect the scale.\n
 1. The hook:
    * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
    * The opening should not include a description of what the essay is about.
-   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should follow one of four ways: a rhetorical question(a question to involve the readers/ put them in your shoes), a simile/metaphor(to help connect readers to the author's position), a scene(imagery that 'paints'/describes the author's life), or an anecdote(a personal story, which should differ from the main essay point or make the reader interested in that story).
-   * If the hook does not follow those four ways, that's ok! First, check for the overused hooks: quotes by famous people, generic statements about major sources(e.g. 'computers have existed for such a short time'), or talk of old memories.
-   * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are(could they be shortened, with about the same amount of emotion?)], 
-   * when grading the hook, grade based off of the [0 to 10]scales with descriptions:
-      **zero: the following descriptions are able to express the hook -> completely full of offensive language, explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels
-      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing substance) describes a story(but does not tell feelings outright), and follows/creates the same underlying tone(is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. 
+   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should follow one of four ways: 
+      a rhetorical question(a question to involve the readers/ put you in their shoes), 
+      a simile/metaphor(to help connect readers to the author's position), 
+      a scene (imagery that 'paints'/describes the author's life), 
+      or an anecdote(a personal story, which should be relevant/introduce the main essay point in a way that intereststhe reader in that story).\n
+
+   * If the hook does not follow those four ways, that's ok! First, check for overused hooks: 
+      quotes by famous people, 
+      generic statements about major sources(e.g. 'computers have existed for such a short time'), 
+      or what the author remembers from their youth.
+   * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are
+   (could they be shortened, with about the same amount of emotion?)]. Do they revolve around relevant(directly to the mentioned theme) topics?\n
+   * When grading the hook, grade based off of the [0 to 10]scales with descriptions:\n
+      **zero: the following descriptions are able to express the hook -> completely full of offensive language, 
+      explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels\n
+      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, 
+         filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing 
+         substance) describes a story(but does not tell feelings outright), and follows/creates the same underlying tone
+         (is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. \n
 2. The description:
-   * After the hook comes the description - what did the hook mean? The essay should about one or two sentences to explain what the hook meant and/or answer the hook's question. It is acceptable for the description to be part of the hook
-   * grading this should be on the scale of zero to ten:
-      ** a 'zero' grade means: the author wrote a different topic than that originally suggested by the hook, added words that did not add any value(the description paraphrased[at least partly] the hook), and/or revealed the rest of the story(very blatantly)
-      ** a 'ten' grade means: going above and beyond the following requirements -> the author added to the hook(meaning, there was more information about the author's life than before or clears up/answers some questions the reader has), did not stray far from the hook's theme and experience, and talked more about their story than their hopes to join their college.
-return the JSON object, and a paragraph or two on how well the introduction was written
+   * After the hook comes the description - what did the hook mean? The essay should about one or two sentences to explain 
+   what the hook meant and/or answer the hook's question. It is acceptable for the description to be part of the hook.\n
+   * grading this should be on the scale of zero to ten:\n
+      ** a 'zero' grade means: the author wrote a different topic than that originally suggested by the hook, 
+      added words that did not add any value(the description paraphrased[at least partly] the hook), 
+      and/or revealed the rest of the story(very blatantly)\n
+      ** a 'ten' grade means: going above and beyond the following requirements -> the author added to the hook
+         (meaning, there was more information about the author's life than before or clears up/answers some questions the reader has), 
+         did not stray far from the hook's theme and experience, and talked more about their story than their hopes to join their college.\n
+Finally, return the JSON object, and a paragraph or two on how well the introduction was written and why you think that way.

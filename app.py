@@ -12,7 +12,7 @@ import google.generativeai as genai
 
 # local requests
 from api import api_keyed
-from helpers import temp
+from helpers import college
 
 # normal settings
 app = Flask(__name__)
@@ -26,10 +26,8 @@ def home():
 @app.route('/check', methods=['POST', "GET"])
 def check():
     if request.method == "POST":
-        with open('college.txt', 'r') as file:
-            # Read the entire content of the file
-            content = file.read()
-        return content
+        essay = request.form.get("essay")
+        colleged = college(essay)
         # take api_key(hidden)
         api_key = api_keyed()
         # give api_key to genai
@@ -37,7 +35,7 @@ def check():
         # select model;
         model = genai.GenerativeModel('gemini-1.5-flash')
         # take prompt
-        response = model.generate_content("What is python?")
+        response = model.generate_content(colleged)
         return response.text
     else:
         return render_template("check.html")
