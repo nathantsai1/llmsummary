@@ -15,13 +15,18 @@ For this, check for these following wording:
          1. 'sentence' key with value of the sentence with the offensive language
          2. 'phrase' key with value of the offensive phrase/wording
          3. 'reason' key with value of the reason for this phrase being flagged
-Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) followed by a '-', and the reason for the rating.  
+Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) followed by a '-', and the reason for the rating. Each bulleted item should affect the scale.
 1. The hook:
    * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
+   * The opening should not include a description of what the essay is about.
    * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should follow one of four ways: a rhetorical question(a question to involve the readers/ put them in your shoes), a simile/metaphor(to help connect readers to the author's position), a scene(imagery that 'paints'/describes the author's life), or an anecdote(a personal story, which should differ from the main essay point or make the reader interested in that story)?
-   * when grading the hook, grade using the scales with descriptions:
-      **zero -(completely full of offensive language, explicit content, and/or has a flat tone, like having no emotions or descriptions to describe how the essay's author feels )
-2. While you 
+   * If the hook does not follow those four ways, that's ok! First, check for the overused hooks: quotes by famous people, generic statements about major sources(e.g. 'computers have existed for such a short time'), or talk of old memories.
+   * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are(could they be shortened, with about the same amount of emotion?)], 
+   * when grading the hook, grade based off of the [0 to 10]scales with descriptions:
+      **zero: the following descriptions are able to express the hook -> completely full of offensive language, explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels
+      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing substance), describes a story(but does not tell them outright), and follows/creates the same tone(is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. 
+2. The description:
+   * After the hook comes the description - what did the hook mean? The essay should add one or two sentences to explain what the hook meant and/or answer the hook's question. 
 https://blog.collegevine.com/how-to-get-the-perfect-hook-for-your-college-essay/
 https://www.collegeessayguy.com/blog/college-essay-tips
 https://www.collegeessayguy.com/the-free-guide
