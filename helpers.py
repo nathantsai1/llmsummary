@@ -1,9 +1,12 @@
 def college(essay):
+    # 0 is the beggining - outside details
     with open('txt/college/college0.txt', 'r') as file:
         # Read the entire content of the file
         content = file.read()
+    # then comes the essay itself
     content += '\\n"' + essay + '"\\n '
-    with open('txt/college/college.txt', 'r') as file:
+    # comprehension on each part
+    with open('txt/college/college1.txt', 'r') as file:
         # Read the entire content of the file
         content += file.read()
     return content

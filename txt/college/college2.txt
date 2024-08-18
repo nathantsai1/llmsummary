@@ -1,0 +1,14 @@
+After thinking about each part of the essay, think about the overall story. The underlying questions should be:
+Does it make sense? Is there a smooth transition from one paragraph to another? Does the story itself focus on the right things?\n
+
+Check for all of the following elements(answer them with as much constructive critism as possible)-> 
+* A narrative that describes the author and their background
+* Details that include the author's motivation, daily life, major accomplishments
+* author's character / values
+* reasons(but not explictly said) on how the author stands out from the other 50,000 applicants.
+* the essay should reasonate with your feelings - there should be a journey that the author walks upon, 
+    and strength by actions and initiations.
+* Most of all, the essay MUST describe the author, so that admission officers can know you(as much as possible) better in 600 words or less.\n
+
+Finally, return the JSON object, and a paragraph on your thoughts(include your answers to the questions on the overall essay[and any questions from the prompt]) 
+about the overall story. It should include a claim about the essay's overall organization and outline, a few sentences defending your answer, and a quick conclusion.
