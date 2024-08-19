@@ -12,7 +12,7 @@ import google.generativeai as genai
 
 # local requests
 from api import api_keyed
-from helpers import college
+from helpers import college, reads
 
 # normal settings
 app = Flask(__name__)
@@ -38,6 +38,12 @@ def check():
         response = model.generate_content(colleged)
         return response.text
     else:
+        with open('no.txt', 'r') as file:
+            # Read the entire content of the file
+            content = file.read()
+            return content
+        alread = reads(content)
+        return alread
         return render_template("check.html")
 
 # normal end settings
