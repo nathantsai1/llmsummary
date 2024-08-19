@@ -131,3 +131,17 @@
  justify-content: start;
  flex-direction: row;   
 }
+
+/* done.html - is from w3 schools*/
+#me {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+table, th, td {
+    border: 1px solid #151E3D;
+  }
+  
+table {
+    width: 100%;
+  }

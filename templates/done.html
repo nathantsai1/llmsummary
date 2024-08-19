@@ -2,7 +2,6 @@
 {% extends 'layout.html' %}
 
 {% block title %}
-<!-- TODO TODO TODO TODO -->
    Results
 {% endblock %}
 
@@ -15,5 +14,34 @@
 {% block main %}
     <div class="beigeone container1 center cantsee ">
         <h1>Results(graded on a scale of ten):</h1>
+        <table class="me">
+            <tr>
+                <th width="30%">Standard</th>
+                <th>Rating</th>
+                <th>Reasoning</th>
+              </tr>
+              <tr>
+                <td width="30%">Hook</td>
+                <td>{{ json["1r"] }}</td>
+                <td>{{ json["1"] }}</td>
+              </tr>
+              <tr>
+                <td width="30%">Centro comercial Moctezuma</td>
+                <td>{{ json["2r"] }}</td>
+                <td>{{ json["2"] }}</td>
+              </tr>
+              <tr>
+                <td width="30%">Ernst Handel</td>
+                <td>{{ json["3r"] }}</td>
+                <td>{{ json["3"] }}</td>
+              </tr>
+              <tr>
+                <td width="30%">Island Trading</td>
+                <td>{{ json["4r"] }}</td>
+                <td>{{ json["4"] }}</td>
+              </tr> 
+        </table>
+        <h1>Overall thoughts</h1><br>
+        <h5>{{ response }}</h5>
     </div>
 {% endblock %}
