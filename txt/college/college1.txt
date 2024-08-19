@@ -20,8 +20,9 @@ For this, check for these following wording:\n
          2. 'phrase' key with value of the offensive phrase/wording\n
          3. 'reason' key with value of the reason for this phrase being flagged\n
 Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, 
-adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) 
-followed by a '-', and the reason for the rating. Each question item should affect the scale.\n
+   adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) 
+   followed by a '-', and the reason for the rating(don't forget to add what the author could improve on, if the score is not a perfect ten). 
+   Each question / checklist should affect the scale.\n
 1. The hook:
    * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
    * The opening should not include a description of what the essay is about.
@@ -54,4 +55,11 @@ followed by a '-', and the reason for the rating. Each question item should affe
       ** a 'ten' grade means: going above and beyond the following requirements -> the author added to the hook
          (meaning, there was more information about the author's life than before or clears up/answers some questions the reader has), 
          did not stray far from the hook's theme and experience, and talked more about their story than their hopes to join their college.\n
+For each paragraph after(except the last one), focus on the following:
+3. Change
+   * How did the author change from the hook to now? Were there minor changes that led to big ones, events that led the author to have a new perspective, etc?
+      Did the author just plow through with no problems(do criticize on that) or had mini problems? What was the result? The best essays are the ones that showcase
+      the author's vulnerability and their lessons/values that stemmed from that. 
+4. Descriptions
+   * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the 
 Finally, return the JSON object, and a paragraph or two on how well the introduction was written and why you think that way.

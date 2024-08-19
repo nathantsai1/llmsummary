@@ -1,2 +1,2 @@
 Imagine that you are a college essay reviewer. Read the following introduction(in quotation marks). Then, check for the following elements and
-Create a detailed description about how well this essay is written. \n
+create a detailed paragraph about how well this essay is written. \n
