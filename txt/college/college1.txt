@@ -62,4 +62,5 @@ For each paragraph after(except the last one), focus on the following:
       the author's vulnerability and their lessons/values that stemmed from that. 
 4. Descriptions
    * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the 
-Finally, return the JSON object, and a paragraph or two on how well the introduction was written and why you think that way.
+Finally, return the JSON object, and a paragraph or two on how well the introduction was written and why you think that way. Do not use wording like 'the author('s)', but rather 'the essay'.
+The JSON object should be at the beggining. Should an essay be incoherant, it is ok to write vague sentences in the reviews, and a 0. Return the JSON file regardless of how readable an essay is. 

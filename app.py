@@ -7,6 +7,7 @@ from flask import (
     redirect,
     jsonify
     )
+import json
 # i learned how to get googleai with w3 schools
 import google.generativeai as genai
 
@@ -38,12 +39,15 @@ def check():
         response = model.generate_content(colleged)
         return response.text
     else:
-        with open('no.txt', 'r') as file:
-            # Read the entire content of the file
-            content = file.read()
-            return content
-        alread = reads(content)
-        return alread
+        # with open('no.txt', 'r') as file:
+        #     # Read the entire content of the file
+        #     content = file.read()
+        # alread = reads(content)
+        # hi = alread[0]
+        # json_object = json.loads(hi)
+        # return json_object
+        # # for the record  - 1 = hook, 2 = description of hook 3 = 
+        # return jsonify(alread[0])
         return render_template("check.html")
 
 # normal end settings

@@ -24,17 +24,20 @@ def reads(essay):
     s = 0
     o = 0
     n = 0
-
+    l = 0
     # y is a bool for whether characters should be recorded
     y = 0
+
     json = ""
     paragraph = ""
     # make the json object
     for i in essay:
-        if i == "'":
-            if m == 3:
+        if i == "`":
+            if m == 2:
                 if y == 1:
                     y = 2
+                if y == 0:
+                    y = 1
                 m = 0
             else:
                 # not enough ''' to fulfill requirements
@@ -45,7 +48,8 @@ def reads(essay):
             # get json
             elif (j == 1 and s == 1 and o == 1 and n == 1):
                 # add i character
-                json += i
+                if i != '\\':       
+                    json += str(i)
             # see if there is a json
             elif (i == 'j'):
                 j = 1
