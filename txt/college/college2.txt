@@ -27,8 +27,10 @@ These traits revolve around the idea of being a well-rounded team leader, which 
 note that in your written paragraph.\n
 After the 'get-to-know-you' checklist, check for structure:
     * Is there the normal five paragraph format, complete with 3 reasons to accept the author? If so, take note and add that to the paragraph. 
-    * Colleges want to see unique people on their class. Phrases like 'you should accept me because...' and 'I'm so honored...' are generic and therefore should not be allowed.\n
+    * Colleges want to see unique people on their class. Phrases like 'you should accept me because...' and 'I'm so honored...' are generic and therefore should not be allowed.
+    * While it is not as important as the other points, there should be a word cap of about 600 / 650 words.\n
 If you have any other thoughts upon how to better improve this essay, add them!\n
 
 Finally, return the JSON object, and a paragraph on your thoughts(include your answers to the questions on the overall essay[and any questions from the prompt]) 
 about the overall story. It should include a claim about the essay's overall organization and outline, a few sentences defending your answer, and a quick conclusion.
+The JSON itself should not contain any backslashes or escape characters, like '\n' or '\', just the character itself. do not try to add lines, keep them all in one line.
