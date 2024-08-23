@@ -37,11 +37,11 @@ def check():
         model = genai.GenerativeModel('gemini-1.5-flash')
         # take prompt
         mesponse = model.generate_content(colleged)
-
         # get information from json
         alread = reads(mesponse.text)
         hi = alread[0]
-        jsoned = json.loads(hi)
+        yah = json.dumps(hi)
+        jsoned = json.loads(yah)
 
         # and sort it
         # by reviews(numbers)
@@ -68,15 +68,6 @@ def check():
         return render_template('done.html', json=load, response=alread[1], original=request.form.get("essay"))
         # # for the record  - 1 = hook, 2 = description of hook 3 = how the author changed 4 = amount of discriptions
     else:
-        # with open('no.txt', 'r') as file:
-        #     # Read the entire content of the file
-        #     content = file.read()
-        # alread = reads(content)
-        # hi = alread[0]
-        # json_object = json.loads(hi)
-        # return json_object
-        # # for the record  - 1 = hook, 2 = description of hook 3 = 
-        # return jsonify(alread[0])
         return render_template("check.html")
 
 # normal end settings

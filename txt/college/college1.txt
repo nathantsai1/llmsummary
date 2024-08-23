@@ -1,4 +1,3 @@
-Imagine that you are a college essay reviewer. Create a detailed description about how well this essay is written. \n
 When reading this essay, keep in mind these key elements:\n
 1. Inasmuch as essays should have a creative build, they must have boundaries that mitigate harmful, biased and/or explicit language. \n
 For this, check for these following wording:\n
@@ -20,7 +19,7 @@ For this, check for these following wording:\n
          2. 'phrase' key with value of the offensive phrase/wording\n
          3. 'reason' key with value of the reason for this phrase being flagged\n
 Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, 
-   adding(or making) a JSON object, with the key being a the list item(without the colon), and a sentence(that begins with the rating[like '1']) 
+   adding(or making, if one has not yet been created) a JSON object with the key being a following list element's number(without the colon), and a sentence(that begins with the rating[like '1']) 
    followed by a '-', and the reason for the rating(don't forget to add what the author could improve on, if the score is not a perfect ten). 
    Each question / checklist should affect the scale.\n
 1. The hook:
@@ -62,5 +61,3 @@ For each paragraph after(except the last one), focus on the following:
       the author's vulnerability and their lessons/values that stemmed from that. 
 4. Descriptions
    * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the 
-Finally, return the JSON object, and a paragraph or two on how well the introduction was written and why you think that way. Do not use wording like 'the author('s)', but rather 'the essay'.
-The JSON object should be at the beggining. Should an essay be incoherant, it is ok to write vague sentences in the reviews, and a 0. Return the JSON file regardless of how readable an essay is. 

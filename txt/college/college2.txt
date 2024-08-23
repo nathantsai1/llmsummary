@@ -29,8 +29,18 @@ After the 'get-to-know-you' checklist, check for structure:
     * Is there the normal five paragraph format, complete with 3 reasons to accept the author? If so, take note and add that to the paragraph. 
     * Colleges want to see unique people on their class. Phrases like 'you should accept me because...' and 'I'm so honored...' are generic and therefore should not be allowed.
     * While it is not as important as the other points, there should be a word cap of about 600 / 650 words.\n
+5. Structure(adding on to the JSON list - using the 7 points, and feel free to use the same ideas in both the paragraph and here!)
 If you have any other thoughts upon how to better improve this essay, add them!\n
 
 Finally, return the JSON object, and a paragraph on your thoughts(include your answers to the questions on the overall essay[and any questions from the prompt]) 
-about the overall story. It should include a claim about the essay's overall organization and outline, a few sentences defending your answer, and a quick conclusion.
-The JSON itself should not contain any backslashes or escape characters, like '\n' or '\', just the character itself. do not try to add lines, keep them all in one line.
+about the overall story. Should an essay be incoherant, it is ok to write vague sentences when writing the JSON object, and a 0. Return the JSON file regardless of how readable an essay is. 
+It should include a claim about the essay's overall organization and outline, a few sentences defending your answer, and a quick conclusion.
+The JSON itself should not contain any backslashes or escape characters, like '\n' or '\', just the character itself. It must be found at the beggining of your answer.
+Do not try to add lines, keep them all in one line. Apart from the JSON object, and the symbols that surround it, there should be no lists, and only the paragraph. Always put the 
+JSON object first, then the paragraph - it should summarize all your thoughts from the other questions, and does not include a list of details, only words. \n
+
+    Your answer must follow the following structure in quotation marks:
+    '
+        ``` json {"1": "(rating(one number)) - description", "2": "(rating(one number)) - description", "3": "(rating(one number)) - description", "4": "(rating(one number)) - 
+        description", "5": "(rating(one number)) - description"} ``` (paragraph goes here)
+    '
