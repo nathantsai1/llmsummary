@@ -40,11 +40,14 @@ def check():
         # get information from json
         alread = reads(mesponse.text)
         hi = alread[0]
-        yah = json.dumps(hi)
-        jsoned = json.loads(yah)
+        try:
+            jsoned = json.loads(fr'{hi}')
+        except TypeError:
+            return render_template('404.html')
 
         # and sort it
         # by reviews(numbers)
+        # return jsonify(jsoned)
         j1 = jsoned["1"][0]
         j2 = jsoned["2"][0]
         j3 = jsoned["3"][0]
@@ -70,6 +73,9 @@ def check():
     else:
         return render_template("check.html")
 
+@app.route('/learn', methods=["GET", "POST"])
+def learn():
+    return render_template('learn.html')
 # normal end settings
 if __name__ == '__main__':
     app.run(debug=True)
