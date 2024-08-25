@@ -30,13 +30,14 @@ Furthermore, look for good(and could-be-improved) writing, and rate each item(of
       a simile/metaphor(to help connect readers to the author's position), 
       a scene (imagery that 'paints'/describes the author's life), 
       or an anecdote(a personal story, which should be relevant/introduce the main essay point in a way that intereststhe reader in that story).\n
-
    * If the hook does not follow those four ways, that's ok! First, check for overused hooks: 
       quotes by famous people, 
       generic statements about major sources(e.g. 'computers have existed for such a short time'), 
       or what the author remembers from their youth.
    * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are
-   (could they be shortened, with about the same amount of emotion?)]. Do they revolve around relevant(directly to the mentioned theme) topics?\n
+   (could they be shortened, with about the same amount of emotion?)]. Do they revolve around relevant(directly to the mentioned theme) topics?
+   * Being relevant means that the hook should be A) loosly following the topic - it gives way to the descripton and beyond, and B) the hook does not neccessarily need to correlate to the rest of the essay, 
+   only needing to tie in a topic that introduces the essay.
    * When grading the hook, grade based off of the [0 to 10]scales with descriptions:\n
       **zero: the following descriptions are able to express the hook -> completely full of offensive language, 
       explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels\n

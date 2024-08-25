@@ -19,10 +19,28 @@
                <!-- content -->
                 <br>
                <h4 for="fname">Essay here:</h4>
-               <textarea type="text"  id="1" name="essay" class="bigger fromtop" minlength="200" placeholder="Start typing here, or paste your essay" required></textarea>
+               <textarea id="hello" name="essay" class="medium" minlength="200" placeholder="Start typing here, or paste your essay" required></textarea>
                <br>
                <button class="btn">Submit here</button>
             </form>
          </div>
     </div>
+    <script>
+      function me() {
+         let me = document.getElementById('hello');
+         let width = window.innerWidth;
+         if (width > 800){
+            me.classList.add("bigger");
+            me.style.width = "1000px"
+         }
+         else {
+            me.classList.add("tiny");
+            me.style.width = "400px"
+         }
+         console.log(me.classList.value);
+         console.log(width)
+         console.log(me.offsetWidth)
+      }
+      me()
+    </script>
  {% endblock %}

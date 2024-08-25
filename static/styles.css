@@ -145,3 +145,11 @@ table, th, td {
 table {
     width: 100%;
   }
+
+.tiny {
+    width: 400px;
+}
+
+.medium {
+    width: 600px;
+}
