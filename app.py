@@ -72,6 +72,7 @@ def check():
         dictionary = {"1": js1, "1r": j1, "2": js2, "2r": j2, "3": js3, "3r": j3, "4": js4, "4r": j4} 
         mjsn = json.dumps(dictionary)
         load = json.loads(mjsn)
+        response = response[1:]
         return render_template('done.html', json=load, response=alread[1], original=request.form.get("essay"))
         # # for the record  - 1 = hook, 2 = description of hook 3 = how the author changed 4 = amount of discriptions
     else:

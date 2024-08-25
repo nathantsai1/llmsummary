@@ -44,8 +44,12 @@ Do not try to add lines, keep them all in one line. Apart from the JSON object, 
 JSON object first, then the paragraph - it should summarize all your thoughts from the other questions, and does not include a list of details, only words. \n
 Before sending out your answer, remember to proofread them and check for ambiguities. Also, think about the overall theme before the small details. Generalize specific points
 (e.g. Change certain points like point a, etc.). When recounting critism, balance that with something you liked about the part you criticized(e.g. The author wrote the hook well, 
-but it could be summarized better). When in doubt, be formal, and try not to be vague. Always explain your decisions. Assume that the reader of your answer does not know what this prompt contains
-
+but it could be summarized better). When in doubt, be formal(do not use 'I', but always 'it'), and try not to be vague. Always explain your decisions. Assume that the reader of your answer does not know what this prompt contains
+If the essay is good, you should be able to answer in depth the following four questions:
+    1. Who - Who is this author,  in terms of personality, and (some)interests
+    2. What - What did this author do that made him/her/them a better person?
+    3. When - Over how long did the author's change happens. As is the saying, Rome(meaning the author being a better person) wasn't built in a day!  
+    4. How - How did the author change? Were (was) there a description in focal turning point(s) that led to the better author?\n
     Your answer must follow the following structure in quotation marks:
     '
         ``` json {"1": "(rating(one number)) - description", "2": "(rating(one number)) - description", "3": "(rating(one number)) - description", "4": "(rating(one number)) - 
