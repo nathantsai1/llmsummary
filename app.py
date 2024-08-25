@@ -27,7 +27,10 @@ def home():
 @app.route('/check', methods=['POST', "GET"])
 def check():
     if request.method == "POST":
-        essay = request.form.get("essay")
+        try:
+            essay = request.form.get("essay")
+        except ValueError:
+            return redirect('/check')
         colleged = college(essay)
         # take api_key(hidden)
         api_key = api_keyed()
@@ -37,6 +40,7 @@ def check():
         model = genai.GenerativeModel('gemini-1.5-flash')
         # take prompt
         mesponse = model.generate_content(colleged)
+
         # get information from json
         alread = reads(mesponse.text)
         hi = alread[0]

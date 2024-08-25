@@ -38,7 +38,7 @@ It should include a claim about the essay's overall organization and outline, a 
 The JSON itself should not contain any backslashes or escape characters, like '\n' or '\', just the character itself. It must be found at the beggining of your answer.
 Do not try to add lines, keep them all in one line. Apart from the JSON object, and the symbols that surround it, there should be no lists, and only the paragraph. Always put the 
 JSON object first, then the paragraph - it should summarize all your thoughts from the other questions, and does not include a list of details, only words. \n
-
+Before sending out your answer, remember to proofread them and check for ambiguities.
     Your answer must follow the following structure in quotation marks:
     '
         ``` json {"1": "(rating(one number)) - description", "2": "(rating(one number)) - description", "3": "(rating(one number)) - description", "4": "(rating(one number)) - 
