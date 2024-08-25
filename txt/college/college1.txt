@@ -37,7 +37,8 @@ Furthermore, look for good(and could-be-improved) writing, and rate each item(of
    * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are
    (could they be shortened, with about the same amount of emotion?)]. Do they revolve around relevant(directly to the mentioned theme) topics?
    * Being relevant means that the hook should be A) loosly following the topic - it gives way to the descripton and beyond, and B) the hook does not neccessarily need to correlate to the rest of the essay, 
-   only needing to tie in a topic that introduces the essay.
+   * Metaphors in the hook, or ideas, can allude and be explained in further detail later in the story. It is fine to switch between mentality and reality.
+   only needing to tie in a topic that introduces the essay. 
    * When grading the hook, grade based off of the [0 to 10]scales with descriptions:\n
       **zero: the following descriptions are able to express the hook -> completely full of offensive language, 
       explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels\n
@@ -59,6 +60,13 @@ For each paragraph after(except the last one), focus on the following:
 3. Change
    * How did the author change from the hook to now? Were there minor changes that led to big ones, events that led the author to have a new perspective, etc?
       Did the author just plow through with no problems(do criticize on that) or had mini problems? What was the result? The best essays are the ones that showcase
-      the author's vulnerability and their lessons/values that stemmed from that. 
+      the author's vulnerability and their lessons/values that stemmed from that.
+   * Did the author explain how each idea led him/her/them self to a better person, and not randomly adding ideas that do not correlate to the essay? This means that 
+      the author should have learned or have changed themselves based off of an experience.
+      Were they successful in solving their own problem?
+   * How many ideas were there? There should have been only one main(mini lessons are fine)! They should have described a situation where they w
 4. Descriptions
-   * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the 
+   * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the author feels at certain points,
+      but does not describe every item in each line. 
+   * If there is a big, overarching metaphor, ask yourself if it can be used throughout the story. Most importantly, did the author explain the metaphor well
+      enough for the reader to understand it - an approved structure is to make sure  
