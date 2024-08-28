@@ -34,7 +34,15 @@ Make sure that each sentence flows naturally into the next - the ideas at the en
 5. Structure(adding on to the JSON list - using the 7 points, and feel free to use the same ideas in both the paragraph and here!)
 If you have any other thoughts upon how to better improve this essay, add them!\n
 6. Conclusion(adding on to the JSON list)
-    * The conclusion should be the last 2-4 sentences in the list, and should include a tie-in - 
+    * The conclusion should be the last 2-4 sentences in the list, and should include a tie-in\n
+Due to the rising levels of influence of AI in college essays, it is neccessary to make sure that there are no AI tools used to write this. If you think that most of the following 
+criteria are true, please set all ratings to 0, and write in the essay an apology, and a 'please do not use AI in the future'. Here they are:
+A) Are there many phrases that are repeated(I, me my does not count)? For example, if someone wrote an article and used the same word to describe different things, this is a sign of AI use.
+B) Does the article even make sense? Are there parts of the story that don't flow, just skip random parts of a story to go to another?(this one may or may not be because of bad writing)
+C) Can you hear the same tone throughout the story? There should be a variety of feelings, not just one or two.
+D) Does almost every single paragraph start with a transitional phrase? That should not happen, if the essay was written by humans.
+E) Are there any 'mundane'(a part that does not affect the author's change much) words like "groundbreaking,” “vital,” “esteemed,” “invaluable,” “indelible,” “essential,” “poignant” or “profound.”
+
 
 Finally, return the JSON object, and a paragraph on your thoughts(include your answers to the questions on the overall essay[and any questions from the prompt]) 
 about the overall story. Should an essay be incoherant, it is ok to write vague sentences when writing the JSON object, and a 0. Return the JSON file regardless of how readable an essay is. 
@@ -50,6 +58,7 @@ If the essay is good, you should be able to answer in depth the following four q
     2. What - What did this author do that made him/her/them a better person?
     3. When - Over how long did the author's change happens. This could happen in a day or over years, but there should be at least the notion of a pivotal moment.
     4. How - How did the author change? Were (was) there a description in focal turning point(s) that led to the better author?\n
+    
     Your answer must follow the following structure in quotation marks:
     '
         ``` json {"1": "(rating(one number)) - description", "2": "(rating(one number)) - description", "3": "(rating(one number)) - description", "4": "(rating(one number)) - 
