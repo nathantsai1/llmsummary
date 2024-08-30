@@ -1,15 +1,19 @@
 def college(essay):
     # 0 is the beggining - outside details
-    with open('txt/college/college0.txt', 'r') as file:
+    with open('txt/college/college0.txt', 'r', encoding='utf-8') as file:
         # Read the entire content of the file
         content = file.read()
     # then comes the essay itself
     content += '\\n```' + essay + '```\\n '
-    # comprehension on each part
-    with open('txt/college/college1.txt', 'r') as file:
+    # y/n AI?
+    with open('txt/college/college1.txt', 'r', encoding='utf-8') as file:
         # Read the entire content of the file
         content += file.read()
-    with open('txt/college/college2.txt', 'r') as file:
+    # comprehension on each part
+    with open('txt/college/college2.txt', 'r', encoding='utf-8') as file:
+        # Read the entire content of the file
+        content += file.read()
+    with open('txt/college/college3.txt', 'r', encoding='utf-8') as file:
         # Read the entire content of the file
         content += file.read()
     return content

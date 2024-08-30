@@ -46,9 +46,8 @@ def check():
         hi = alread[0]
         try:
             jsoned = json.loads(fr'{hi}')
-        except TypeError:
-            return render_template('404.html')
-
+        except TypeError or json.decoder.JSONDecodeError:
+            return alread
         # and sort it
         # by reviews(numbers)
         # return jsonify(jsoned)

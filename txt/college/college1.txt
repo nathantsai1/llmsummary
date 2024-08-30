@@ -1,75 +1,12 @@
-When reading this essay, keep in mind these key elements:\n
-1. Inasmuch as essays should have a creative build, they must have boundaries that mitigate harmful, biased and/or explicit language. \n
-For this, check for these following wording:\n
-   * Insensitive language: this includes any wording that insults others - whether it was intended or not. For example,
-   some old-fashioned phrases like 'red indian' are considered offensive. Are any of these phrases showing a form of racism, 
-   ageism, ableism, or sexism? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) 
-   with a list:\n
-      * 'insensitive language' containing a dictionary for each phrase, with three key/value pairs each - \n
-         1. 'sentence' key with value of the sentence with the offensive language\n
-         2. 'phrase' key with value of the offensive phrase/wording\n
-         3. 'reason' key with value of the reason for this phrase being flagged\n
-   In addition, check for Individuality\n
-   * This means checking for wording that reduces a large population group to their common traits; 
-   Does it seem like any phrases make it seem like the essay points to any groups, and single them out without context? 
-   Does it draw from any stereotypes - e.g. All asians are nerds because they are Asian? 
-   If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:\n
-      * 'Individuality and generalizing' containing a dictionary for each offending phrase, with three key/value pairs each - \n
-         1. 'sentence' key with value of the sentence with the offensive language\n
-         2. 'phrase' key with value of the offensive phrase/wording\n
-         3. 'reason' key with value of the reason for this phrase being flagged\n
-Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, 
-   adding(or making, if one has not yet been created) a JSON object with the key being a following list element's number(without the colon), and a sentence(that begins with the rating[like '1']) 
-   followed by a '-', and the reason for the rating(don't forget to add what the author could improve on, if the score is not a perfect ten). 
-   Each question / checklist should affect the scale.\n
-1. The hook:
-   * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
-   * The opening should not include a description of what the essay is about.
-   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should be does not have to follow one of four ways: 
-      a rhetorical question(a question to involve the readers/ put you in their shoes), 
-      a simile/metaphor(to help connect readers to the author's position), 
-      a scene (imagery that 'paints'/describes the author's life), 
-      or an anecdote(a personal story, which should be relevant/introduce the main essay point in a way that intereststhe reader in that story).\n
-   * If the hook does not follow those four ways, that's ok! First, check for overused hooks: 
-      quotes by famous people, 
-      generic statements about major sources(e.g. 'computers have existed for such a short time'), 
-      or what the author remembers from their youth.
-   * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are
-   (could they be shortened, with about the same amount of emotion?)]. Do they revolve around relevant(directly to the mentioned theme) topics?
-   * Being relevant means that the hook should be A) loosly following the topic - it gives way to the descripton and beyond, and B) the hook does not neccessarily need to correlate to the rest of the essay, 
-   * Metaphors in the hook, or ideas, can allude and be explained in further detail later in the story. It is fine to switch between mentality and reality.
-   only needing to tie in a topic that introduces the essay. 
-   * When grading the hook, grade based off of the [0 to 10]scales with descriptions:\n
-      **zero: the following descriptions are able to express the hook -> completely full of offensive language, 
-      explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels\n
-      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, 
-         filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing 
-         substance) describes a story(but does not tell feelings outright), and follows/creates the same underlying tone
-         (is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. \n
-2. The description:
-   * After the hook comes the description - what did the hook mean? The essay should about one or two sentences to explain 
-   what the hook meant and/or answer the hook's question. It is acceptable for the description to be part of the hook.\n
-   * grading this should be on the scale of zero to ten:\n
-      ** a 'zero' grade means: the author wrote a different topic than that originally suggested by the hook, 
-      added words that did not add any value(the description paraphrased[at least partly] the hook), 
-      and/or revealed the rest of the story(very blatantly)\n
-      ** a 'ten' grade means: going above and beyond the following requirements -> the author added to the hook
-         (meaning, there was more information about the author's life than before or clears up/answers some questions the reader has), 
-         did not stray far from the hook's theme and experience, and talked more about their story than their hopes to join their college.\n
-For each paragraph after(except the last one), focus on the following:
-3. Change
-   * How did the author change from the hook to now? Were there minor changes that led to big ones, events that led the author to have a new perspective, etc?
-      Did the author just plow through with no problems(do criticize on that) or had mini problems? What was the result? The best essays are the ones that showcase
-      the author's vulnerability and their lessons/values that stemmed from that.
-   * Did the author explain how each idea led him/her/them self to a better person, and not randomly adding ideas that do not correlate to the essay? This means that 
-      the author should have learned or have changed themselves based off of an experience.
-      Were they successful in solving their own problem?
-   * How many ideas were there? There should have been only one main(mini lessons are fine)! They should have described a situation where they learned something!
-   * The author's future goals should be easily understood, even if it is summarized in the last sentence, or talking about their problems they struggle with at the end of the essay.
-   * This should be of the author's own experience, and explains their feelings towards themselves, but include others in the story.
-4. Descriptions
-   * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the author feels at certain points,
-      but does not describe every item in each line. 
-   * If there is a big, overarching metaphor, ask yourself if it can be used throughout the story. Most importantly, did the author explain the metaphor well
-      enough for the reader to understand it?
-   * The author should only describe experiences - You and the college essay reviewers can Search up any topics that they are curious about.
+Due to the rising levels of influence of AI in college essays, it is neccessary to make sure that there are no AI tools used to write this. If you think that most of the following 
+criteria are true, please set all ratings to 0, and write in the essay an apology, and a 'please do not use AI in the future'. Here they are:
+A) Are there many phrases that are repeated(I, me my does not count)? For example, if someone wrote an article and used the same word to describe different things, this is a sign of AI use.
+B) Does the article even make sense? Are there parts of the story that don't flow, just skip random parts of a story to go to another?(this one may or may not be because of bad writing)
+C) Can you hear the same tone throughout the story? There should be a variety of feelings, not just one or two.
+D) Does almost every single paragraph start with a transitional phrase? That should not happen, if the essay was written by humans.
+E) Are there any 'mundane'(a part that does not affect the author's change much) words like "groundbreaking,” “vital,” “esteemed,” “invaluable,” “indelible,” “essential,” “poignant” or “profound.”
+F) are there any metaphors whose compared objects seem confusing?
+G) Might there be overexplanation - adding apppositives to explain certain people?
+H) Are there any false sources - e.g. a song named 'Harry Potter'.
+I) Each and every part should focus on 'I', 'me', 'us', 'we', etc. But it should not reference 'them' 
+Use these to determine if the sources were AI written or not. At the end of the essay, give a percentage of how much of the essay you think is being written by AI.

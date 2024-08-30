@@ -1,0 +1,58 @@
+After thinking about each part of the essay, think about the overall story. The underlying questions should be:
+Does it make sense? Is there a smooth transition from one paragraph to another? Does the story itself focus on the right things?\n
+
+Check for all of the following elements(answer them with as much constructive critism as possible)-> 
+* A narrative that describes the author and their background
+* Details that include the author's motivation, daily life, major accomplishments
+* author's character / values
+* reasons(but not explictly said) on how the author stands out from the other 50,000 applicants.
+* the essay should reasonate with your feelings - there should be a journey that the author walks upon, 
+    and strength by actions and initiations.
+* Most of all, the essay MUST describe the author, so that admission officers can know you(as much as possible) better in 600 words or less.
+This means having 7 things: 
+    1. having a 'helping' mindset - Mentioning volunteer hours or showing initiative for helping others are a few examples. If they don't have it, that's fine! 
+        However, as long as they don't talk just about themselves, the essay is fine on this point. Also, a goal to help the world become a better place should be in the essay.
+    2. the author's relation to other people - Did they help others with a problem they themselves had? Or take the lead to push the boundaries of what is possible?
+    3. creativity - Can the author find issues, learn about them, and create a solution to that?
+    4. overcoming challenges - how does the author bounce back from setbacks and strengthen their values from them? Do they persue goals because they have demons that surround them?
+    5. dedication - what does the author do by their own initiative that makes them different from other students? Again, do they help others by organizing 
+        events to help others find the same passion as the author themselves do? Or at least actively involve themselves in their 'curiosity' as stated below?
+    6. curiosity -  Does the author have an open mindset? Do they explore off-the-path roads and topics that they are curious in? Or do they just say that they 
+        are curious in a one or a few subjects? This should show commitment as stated above.
+    7. mindset for diversity - Can the author interact well with people with social/religious statuses different with theirs? Can they understand other's behavior, 
+        and accept that people are different? If so, how? Perhaps they have biasness. Could they have talked about changing themselves to be more 'culturally intelligent', 
+        in ways like respect, empathy, and curiosity(learning more than a name)?\n
+These traits revolve around the idea of being a well-rounded team leader, which this essay should be graded upon, and should not focus on the author's academic acheivements
+(briefly talking about it is fine). Remember, the essay is to help admission officers like you learn who the author is. If you cannot learn about the author's success and failures,
+note that in your written paragraph.\n
+After the 'get-to-know-you' checklist, check for structure:
+    * Is there the normal five paragraph format, complete with 3 reasons to accept the author? If so, take note and add that to the paragraph. 
+    * Colleges want to see unique people on their class. Phrases like 'you should accept me because...' and 'I'm so honored...' are generic and therefore should not be allowed.
+    * While it is not as important as the other points, there should be a word cap of about 600 / 650 words.\n
+    * The essay should only talk about one topic, not multiple.
+Make sure that each sentence flows naturally into the next - the ideas at the end of one should be picked up in the beggining of the next, or throughout the next few sentences.
+5. Structure(adding on to the JSON list - using the 7 points, and feel free to use the same ideas in both the paragraph and here!)
+If you have any other thoughts upon how to better improve this essay, add them!\n
+6. Conclusion(adding on to the JSON list)
+    * The conclusion should be the last 2-4 sentences in the list, and should include a tie-in\n
+
+Finally, return the JSON object, and a paragraph on your thoughts(include your answers to the questions on the overall essay[and any questions from the prompt]) 
+about the overall story. Should an essay be incoherant, it is ok to write vague sentences when writing the JSON object, and a 0. Return the JSON file regardless of how readable an essay is. 
+It should include a claim about the essay's overall organization and outline, a few sentences defending your answer, and a quick conclusion.
+The JSON itself should not contain any backslashes or escape characters, like '\n' or '\', just the character itself. It must be found at the beggining of your answer.
+Do not try to add lines, keep them all in one line. Apart from the JSON object, and the symbols that surround it, there should be no lists, and only the paragraph. Always put the 
+JSON object first, then the paragraph - it should summarize all your thoughts from the other questions, and does not include a list of details, only words. \n
+Before sending out your answer, remember to proofread them and check for ambiguities. Also, think about the overall theme before the small details. Generalize specific points
+(e.g. Change certain points like point a, etc.). When recounting critism, balance that with something you liked about the part you criticized(e.g. The author wrote the hook well, 
+but it could be summarized better - make sure that your answers have words that indicate the change, though). When in doubt, be formal(do not use 'I', but always 'it'), and try not to be vague. Always explain your decisions. Assume that the reader of your answer does not know what this prompt contains
+If the essay is good, you should be able to answer in depth the following four questions:
+    1. Who - Who is this author,  in terms of personality, and (some)interests
+    2. What - What did this author do that made him/her/them a better person?
+    3. When - Over how long did the author's change happens. This could happen in a day or over years, but there should be at least the notion of a pivotal moment.
+    4. How - How did the author change? Were (was) there a description in focal turning point(s) that led to the better author?\n
+The paragraph should only be in sentence form. add it at the end
+    Your answer must follow the following structure in quotation marks:
+    '
+        ``` json {"1": "(rating(one number)) - description", "2": "(rating(one number)) - description", "3": "(rating(one number)) - description", "4": "(rating(one number)) - 
+        description", "5": "(rating(one number)) - description"} ``` (paragraph goes here)
+    '

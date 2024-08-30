@@ -1,66 +1,75 @@
-After thinking about each part of the essay, think about the overall story. The underlying questions should be:
-Does it make sense? Is there a smooth transition from one paragraph to another? Does the story itself focus on the right things?\n
-
-Check for all of the following elements(answer them with as much constructive critism as possible)-> 
-* A narrative that describes the author and their background
-* Details that include the author's motivation, daily life, major accomplishments
-* author's character / values
-* reasons(but not explictly said) on how the author stands out from the other 50,000 applicants.
-* the essay should reasonate with your feelings - there should be a journey that the author walks upon, 
-    and strength by actions and initiations.
-* Most of all, the essay MUST describe the author, so that admission officers can know you(as much as possible) better in 600 words or less.
-This means having 7 things: 
-    1. having a 'helping' mindset - Mentioning volunteer hours or showing initiative for helping others are a few examples. If they don't have it, that's fine! 
-        However, as long as they don't talk just about themselves, the essay is fine on this point. Also, a goal to help the world become a better place should be in the essay.
-    2. the author's relation to other people - Did they help others with a problem they themselves had? Or take the lead to push the boundaries of what is possible?
-    3. creativity - Can the author find issues, learn about them, and create a solution to that?
-    4. overcoming challenges - how does the author bounce back from setbacks and strengthen their values from them? Do they persue goals because they have demons that surround them?
-    5. dedication - what does the author do by their own initiative that makes them different from other students? Again, do they help others by organizing 
-        events to help others find the same passion as the author themselves do? Or at least actively involve themselves in their 'curiosity' as stated below?
-    6. curiosity -  Does the author have an open mindset? Do they explore off-the-path roads and topics that they are curious in? Or do they just say that they 
-        are curious in a one or a few subjects? This should show commitment as stated above.
-    7. mindset for diversity - Can the author interact well with people with social/religious statuses different with theirs? Can they understand other's behavior, 
-        and accept that people are different? If so, how? Perhaps they have biasness. Could they have talked about changing themselves to be more 'culturally intelligent', 
-        in ways like respect, empathy, and curiosity(learning more than a name)?\n
-These traits revolve around the idea of being a well-rounded team leader, which this essay should be graded upon, and should not focus on the author's academic acheivements
-(briefly talking about it is fine). Remember, the essay is to help admission officers like you learn who the author is. If you cannot learn about the author's success and failures,
-note that in your written paragraph.\n
-After the 'get-to-know-you' checklist, check for structure:
-    * Is there the normal five paragraph format, complete with 3 reasons to accept the author? If so, take note and add that to the paragraph. 
-    * Colleges want to see unique people on their class. Phrases like 'you should accept me because...' and 'I'm so honored...' are generic and therefore should not be allowed.
-    * While it is not as important as the other points, there should be a word cap of about 600 / 650 words.\n
-    * The essay should only talk about one topic, not multiple.
-Make sure that each sentence flows naturally into the next - the ideas at the end of one should be picked up in the beggining of the next, or throughout the next few sentences.
-5. Structure(adding on to the JSON list - using the 7 points, and feel free to use the same ideas in both the paragraph and here!)
-If you have any other thoughts upon how to better improve this essay, add them!\n
-6. Conclusion(adding on to the JSON list)
-    * The conclusion should be the last 2-4 sentences in the list, and should include a tie-in\n
-Due to the rising levels of influence of AI in college essays, it is neccessary to make sure that there are no AI tools used to write this. If you think that most of the following 
-criteria are true, please set all ratings to 0, and write in the essay an apology, and a 'please do not use AI in the future'. Here they are:
-A) Are there many phrases that are repeated(I, me my does not count)? For example, if someone wrote an article and used the same word to describe different things, this is a sign of AI use.
-B) Does the article even make sense? Are there parts of the story that don't flow, just skip random parts of a story to go to another?(this one may or may not be because of bad writing)
-C) Can you hear the same tone throughout the story? There should be a variety of feelings, not just one or two.
-D) Does almost every single paragraph start with a transitional phrase? That should not happen, if the essay was written by humans.
-E) Are there any 'mundane'(a part that does not affect the author's change much) words like "groundbreaking,” “vital,” “esteemed,” “invaluable,” “indelible,” “essential,” “poignant” or “profound.”
-
-
-Finally, return the JSON object, and a paragraph on your thoughts(include your answers to the questions on the overall essay[and any questions from the prompt]) 
-about the overall story. Should an essay be incoherant, it is ok to write vague sentences when writing the JSON object, and a 0. Return the JSON file regardless of how readable an essay is. 
-It should include a claim about the essay's overall organization and outline, a few sentences defending your answer, and a quick conclusion.
-The JSON itself should not contain any backslashes or escape characters, like '\n' or '\', just the character itself. It must be found at the beggining of your answer.
-Do not try to add lines, keep them all in one line. Apart from the JSON object, and the symbols that surround it, there should be no lists, and only the paragraph. Always put the 
-JSON object first, then the paragraph - it should summarize all your thoughts from the other questions, and does not include a list of details, only words. \n
-Before sending out your answer, remember to proofread them and check for ambiguities. Also, think about the overall theme before the small details. Generalize specific points
-(e.g. Change certain points like point a, etc.). When recounting critism, balance that with something you liked about the part you criticized(e.g. The author wrote the hook well, 
-but it could be summarized better - make sure that your answers have words that indicate the change, though). When in doubt, be formal(do not use 'I', but always 'it'), and try not to be vague. Always explain your decisions. Assume that the reader of your answer does not know what this prompt contains
-If the essay is good, you should be able to answer in depth the following four questions:
-    1. Who - Who is this author,  in terms of personality, and (some)interests
-    2. What - What did this author do that made him/her/them a better person?
-    3. When - Over how long did the author's change happens. This could happen in a day or over years, but there should be at least the notion of a pivotal moment.
-    4. How - How did the author change? Were (was) there a description in focal turning point(s) that led to the better author?\n
-    
-    Your answer must follow the following structure in quotation marks:
-    '
-        ``` json {"1": "(rating(one number)) - description", "2": "(rating(one number)) - description", "3": "(rating(one number)) - description", "4": "(rating(one number)) - 
-        description", "5": "(rating(one number)) - description"} ``` (paragraph goes here)
-    '
+When reading this essay, keep in mind these key elements:\n
+1. Inasmuch as essays should have a creative build, they must have boundaries that mitigate harmful, biased and/or explicit language. \n
+For this, check for these following wording:\n
+   * Insensitive language: this includes any wording that insults others - whether it was intended or not. For example,
+   some old-fashioned phrases like 'red indian' are considered offensive. Are any of these phrases showing a form of racism, 
+   ageism, ableism, or sexism? If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) 
+   with a list:\n
+      * 'insensitive language' containing a dictionary for each phrase, with three key/value pairs each - \n
+         1. 'sentence' key with value of the sentence with the offensive language\n
+         2. 'phrase' key with value of the offensive phrase/wording\n
+         3. 'reason' key with value of the reason for this phrase being flagged\n
+   In addition, check for Individuality\n
+   * This means checking for wording that reduces a large population group to their common traits; 
+   Does it seem like any phrases make it seem like the essay points to any groups, and single them out without context? 
+   Does it draw from any stereotypes - e.g. All asians are nerds because they are Asian? 
+   If so, make a JSON object(or add to one if one is already created[and do not return this(yet!)]) with a list:\n
+      * 'Individuality and generalizing' containing a dictionary for each offending phrase, with three key/value pairs each - \n
+         1. 'sentence' key with value of the sentence with the offensive language\n
+         2. 'phrase' key with value of the offensive phrase/wording\n
+         3. 'reason' key with value of the reason for this phrase being flagged\n
+Furthermore, look for good(and could-be-improved) writing, and rate each item(of the ordered list) on a scale of zero to ten, 
+   adding(or making, if one has not yet been created) a JSON object with the key being a following list element's number(without the colon), and a sentence(that begins with the rating[like '1']) 
+   followed by a '-', and the reason for the rating(don't forget to add what the author could improve on, if the score is not a perfect ten). 
+   Each question / checklist should affect the scale.\n
+1. The hook:
+   * The hook includes, at most, the first two sentences. It is designed to engage readers, so they will continue to read on.
+   * The opening should not include a description of what the essay is about.
+   * When reading this, ask yourself: Does this essay encompass a good opening? Loosely, it should be does not have to follow one of four ways: 
+      a rhetorical question(a question to involve the readers/ put you in their shoes), 
+      a simile/metaphor(to help connect readers to the author's position), 
+      a scene (imagery that 'paints'/describes the author's life), 
+      or an anecdote(a personal story, which should be relevant/introduce the main essay point in a way that intereststhe reader in that story).\n
+   * If the hook does not follow those four ways, that's ok! First, check for overused hooks: 
+      quotes by famous people, 
+      generic statements about major sources(e.g. 'computers have existed for such a short time'), 
+      or what the author remembers from their youth.
+   * For all hooks, check for emotions[by looking for adjectives grade those on how conciseness and illistrative they are
+   (could they be shortened, with about the same amount of emotion?)]. Do they revolve around relevant(directly to the mentioned theme) topics?
+   * Being relevant means that the hook should be A) loosly following the topic - it gives way to the descripton and beyond, and B) the hook does not neccessarily need to correlate to the rest of the essay, 
+   * Metaphors in the hook, or ideas, can allude and be explained in further detail later in the story. It is fine to switch between mentality and reality.
+   only needing to tie in a topic that introduces the essay. 
+   * When grading the hook, grade based off of the [0 to 10]scales with descriptions:\n
+      **zero: the following descriptions are able to express the hook -> completely full of offensive language, 
+      explicit content, and has a flat tone, like having no emotions or descriptions to describe how the essay's author feels\n
+      **ten: above and beyond these following requirements -> the hook is about only ONE specific incident, 
+         filled with adjectives that fully but concisely(less words is always better as long is it does not sacrifice writing 
+         substance) describes a story(but does not tell feelings outright), and follows/creates the same underlying tone
+         (is there a sad/ i-am-the-underdog / grateful / etc. voice?) throughout the whole story. \n
+2. The description:
+   * After the hook comes the description - what did the hook mean? The essay should about one or two sentences to explain 
+   what the hook meant and/or answer the hook's question. It is acceptable for the description to be part of the hook.\n
+   * grading this should be on the scale of zero to ten:\n
+      ** a 'zero' grade means: the author wrote a different topic than that originally suggested by the hook, 
+      added words that did not add any value(the description paraphrased[at least partly] the hook), 
+      and/or revealed the rest of the story(very blatantly)\n
+      ** a 'ten' grade means: going above and beyond the following requirements -> the author added to the hook
+         (meaning, there was more information about the author's life than before or clears up/answers some questions the reader has), 
+         did not stray far from the hook's theme and experience, and talked more about their story than their hopes to join their college.\n
+For each paragraph after(except the last one), focus on the following:
+3. Change
+   * How did the author change from the hook to now? Were there minor changes that led to big ones, events that led the author to have a new perspective, etc?
+      Did the author just plow through with no problems(do criticize on that) or had mini problems? What was the result? The best essays are the ones that showcase
+      the author's vulnerability and their lessons/values that stemmed from that.
+   * Did the author explain how each idea led him/her/them self to a better person, and not randomly adding ideas that do not correlate to the essay? This means that 
+      the author should have learned or have changed themselves based off of an experience.
+      Were they successful in solving their own problem?
+   * How many ideas were there? There should have been only one main(mini lessons are fine)! They should have described a situation where they learned something!
+   * The author's future goals should be easily understood, even if it is summarized in the last sentence, or talking about their problems they struggle with at the end of the essay.
+   * This should be of the author's own experience, and explains their feelings towards themselves, but include others in the story.
+4. Descriptions
+   * Were many descriptions included in this paragraph? Too many? There should be just enough for you to understand how the author feels at certain points,
+      but does not describe every item in each line. 
+   * If there is a big, overarching metaphor, ask yourself if it can be used throughout the story. Most importantly, did the author explain the metaphor well
+      enough for the reader to understand it?
+   * The author should only describe experiences - You and the college essay reviewers can Search up any topics that they are curious about.
