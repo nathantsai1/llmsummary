@@ -12,7 +12,16 @@ import json
 import google.generativeai as genai
 
 # local requests
-from api import api_keyed
+try:
+    # try ggetting api key from python file
+    from api import api_keyed
+except ImportError:
+    # if there isn't, get the os's environmental factor
+    import os
+    def api_keyed():
+        shy = os.getenv('DATABASE_URL')
+        return shy
+
 from helpers import college, reads
 
 # normal settings
@@ -80,9 +89,14 @@ def check():
     else:
         return render_template("check.html")
 
-@app.route('/learn', methods=["GET", "POST"])
+@app.route('/learn', methods=["GET"])
 def learn():
     return render_template('learn.html')
+
+@app.route('/about', methods=["GET"])
+def about():
+    return render_template('about.html')
+
 # normal end settings
 if __name__ == '__main__':
     app.run(debug=True)
